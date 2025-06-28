@@ -6,10 +6,17 @@ This project classifies garbage into 6 categories: cardboard, glass, metal, pape
 - Dataset structured and loaded
 - Model built with EfficientNetV2B2 using transfer learning
 - Training initiated
-- Week 1 report attached
-> Note: The dataset is uploaded as `dataset.zip`. Unzip before running the notebook.
+> 📦 Dataset is uploaded as `dataset.zip`. Unzip before running the notebook.
 
+---
+
+## 🔹 Week 2 Progress:
+- Model trained for 15 epochs with EarlyStopping and checkpoint saving
+- Accuracy and loss graphs plotted to visualize performance
+- Observed class imbalance and overfitting trends for further tuning in Week 3
+
+---
 
 ## 🔮 Coming Next:
-- Model evaluation with metrics and graphs
-- Gradio web interface for real-time classification
+- Evaluation with classification report and confusion matrix
+- Gradio web interface for real-time garbage classification
